@@ -1,0 +1,207 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+nav ul{
+  display: flex;
+  list-style: none;
+  padding-left: 20px;
+}
+
+.links{
+  display: flex;
+}
+
+.links a, .icons a{
+  text-decoration: none;
+}
+
+.links li + li, .icons li + li{
+  margin-left: 20px;
+}
+
+ /*.links li + li
+The '+' symbol allows me to select the other list items
+ expect the first one
+ {
+   margin-left: 150px;
+ }*/
+
+.icons{
+  display: flex;
+  margin-left: 130px;
+}
+
+.icons #hamburger-menu{
+
+}
+
+.icons #hamburger-menu div{
+  width: 18px;
+  height: 2px;
+  background-color: black;
+  margin: 3.5px 0;
+}
+
+.icons li + li +li +li{
+  margin-left: 5px;
+}
+
+#account{
+  color: #228B22;
+  font-weight: 900;
+  font-size: 17px;
+  background-color: black;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  text-align: center;
+  opacity: .5;
+}
+
+#google-logo-container {
+  display: flex;
+  justify-content: center;
+}
+
+.google-logo img{
+  width: 400px;
+  margin-left: 15px;
+}
+
+.search-bar-container{
+  width: 90%;
+  height: 20px;
+  border-radius: 5%;
+  border: 1px solid #C0C0C0;
+  margin-left: 19px;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.search-bar-container .search-icon{
+  width: 25px;
+}
+
+.search-bar-container .search-bar{
+width: 84%;
+opacity: 0;
+}
+
+.search-bar-container .search-bar input{
+  width: 100%;
+}
+
+.value-reader-icon{
+  margin-left: 23px;
+}
+
+.search-lucky-button-container{
+  display: flex;
+  justify-content: center;
+}
+.search-button,.lucky-button {
+text-align: center;
+margin: 3px;
+}
+
+footer {
+  color: #000;
+  margin: 0;
+  padding: 10px;
+  margin-top: 390px;
+  background-color: lightgrey;
+  text-align: center;
+}
+
+footer a{
+  font-size: 14px;
+  text-decoration: none;
+  padding-left: 6px;
+}
+
+@media (min-width: 500px){
+  .icons {
+    margin-left: 200px;
+  }
+}
+
+@media (min-width: 550px){
+  .icons {
+    margin-left: 250px;
+  }
+}
+
+@media (min-width: 600px){
+  .icons {
+    margin-left: 300px;
+  }
+}
+
+@media (min-width: 650px){
+  .icons {
+    margin-left: 350px;
+  }
+}
+
+@media (min-width: 700px){
+  .icons {
+    margin-left: 400px;
+  }
+}
+
+@media (min-width: 750px){
+  .icons {
+    margin-left: 450px;
+  }
+}
+
+@media (min-width: 800px){
+  .icons {
+    margin-left: 500px;
+  }
+}
+
+@media (min-width: 850px){
+  .icons {
+    margin-left: 550px;
+  }
+}
+
+@media (min-width: 900px){
+  .icons {
+    margin-left: 600px;
+  }
+}
+
+@media (min-width: 950px){
+  .icons {
+    margin-left: 650px;
+  }
+}
+
+@media (min-width: 1000px){
+  .icons {
+    margin-left: 700px;
+  }
+}
+
+@media (min-width: 1050px){
+  .icons {
+    margin-left: 750px;
+  }
+}
+
+@media (min-width: 1100px){
+  .icons {
+    margin-left: 800px;
+  }
+}
+
+@media (min-width: 1150px){
+  .icons {
+    margin-left: 850px;
+  }
+}
