@@ -18,10 +18,8 @@ header {
   justify-content: space-around;
   align-items: center;
   background-color: #DCDCDC;
-  width: 95%;
+  width: 100%;
   border: 2px solid #00FF00;
-  margin-top: 3px;
-  margin-left: 4px;
 }
 
 .logo {
@@ -74,10 +72,12 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 160px;
+  margin-top: 170px;
   text-align: center;
   background-color: #DCDCDC;
   width: 95%;
+  margin-left: 10px;
+  padding: 8px;
 }
 
 #hero h2 {
@@ -91,17 +91,9 @@ header {
 #Services .icon {
   display: flex;
   align-items: center;
-  justify-content: center;
-  height: 125px;
-  width: 20vw;
 }
 
 #Services .desc {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 125px;
-  width: 80vw;
   padding: 5px;
 }
 
@@ -111,8 +103,7 @@ header {
 
 #Pricing {
   margin-top: 60px;
-  display: flex;
-  flex-direction: row;
+  display: grid;
   justify-content: center;
 }
 
@@ -124,6 +115,8 @@ header {
   border: 1px solid #00FF00;
   background-color: #DCDCDC;
   width: 40vw;
+  margin: 10px;
+  padding: 10px;
 }
 
 .product ol {
@@ -133,4 +126,30 @@ header {
 .product li {
   list-style: none;
   font-size: 20px;
+}
+
+footer {
+  margin-top: 40px;
+  padding: 20px;
+  text-align: center;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+footer ul li a{
+  padding: 0 10px;
+  text-decoration: none;
+}
+
+@media (max-width: 500px) {
+  header {
+    width: 65vw;
+    margin-top: 3px;
+    border: 1px solid #00FF00;
+  }
+
 }
