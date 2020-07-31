@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 3px;
+}
+
+#logo {
+    border: 7px solid rgba(224, 224, 224, .8);
+    text-align: center;
+    font-size: 1.7rem;
+    font-family: 'Slabo 27px', serif;
+}
+
+.logo {
+    padding: 10px;
+    font-weight: 100;
+}
+
+.logo span {
+    color: rgba(199, 8, 8, 0.8);
+}
+
+main {
+    margin: 20px auto 6px 2px;
+}
+
+.bgImage {
+    background-image: url(images/chocolate1.jpg);
+    background-size: cover;
+    width: 450px;
+    height: 470px;
+    padding: 10px;
+}
+
+.wrap {
+    border: 2px solid rgba(199, 8, 8, 0.8);
+    height: 467px;
+}
+
+.display {
+    color: rgba(199, 8, 8, 0.8);
+    font-size: 2em;
+    font-weight: 400;
+    margin-top: 7px;
+    margin-left: 20px;
+}
+
+p {
+    margin: 10px;
+}
+
+.moreOptions {
+    display: flex;
+}
+
+.moreOptions img {
+    width: 100px;
+    height: 100px;
+}
+
