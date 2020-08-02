@@ -20,7 +20,104 @@
                 <td>250mb</td>
                 <td>1gb</td>
             </tr>
+            <tr>
+                <th scope="row">Bandwidth</th>
+                <td>5gb per month</td>
+                <td>50gb per month</td>
+            </tr>
+            <tr>
+                <th scope="row">Email accounts</th>
+                <td>3</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <th scope="row">Server</th>
+                <td>Shared</td>
+                <td>VPS</td>
+            </tr>
+            <tr>
+                <th scope="row">Support</th>
+                <td>Email</td>
+                <td>Telephone and Email</td>
+            </tr>
+            <tr>
+                <th scope="row">Setup</th>
+                <td>Free</td>
+                <td>Free</td>
+            </tr>
+            <tr>
+                <th scope="row">FTP accounts</th>
+                <td>1</td>
+                <td>5</td>
+            </tr>
         </tbody>
+        <tfoot>
+            <tr>
+                <td></td>
+                <td colspan="2">Sign up now and save 10%</td>
+            </tr>
+        </tfoot>
     </table>
+
+    <form action="">
+        <fieldset>
+            <legend>
+                Your Details:
+            </legend>
+            <label for="name">
+                Name:
+                <input type="text" name="name" size="30" maxlength="100">
+            </label>
+            <br>
+            <br>
+            <label for="email">
+                Email:
+                <input type="text" name="email" size="30" maxlength="100">
+            </label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>
+                Your Review:
+            </legend>
+            <p>
+                <label for="hear-about">
+                    How did you hear about us?
+                </label>
+                <select name="referrer" id="hear-about">
+                    <option value="google">Google</option>
+                    <option value="friend">Friend</option>
+                    <option value="advert">Advert</option>
+                    <option value="other">Other</option>
+                </select>
+            </p>
+            <p>
+                Would you visit again?
+                <br>
+                <label for="rating">
+                    <input type="radio" name="rating" value="yes">Yes
+                </label>
+                <label for="rating">
+                    <input type="radio" name="rating" id="no">No
+                </label>
+                <label for="rating">
+                    <input type="radio" name="rating" value="maybe">Maybe
+                </label>
+            </p>
+            <p>
+                <label for="comments">
+                    Comments:
+                </label>
+                <br>
+                <textarea name="comments" id="comments" cols="40" rows="4"></textarea>
+            </p>
+            <label for="subscribe">
+                <input type="checkbox" name="subscribe" checked>
+                Sign me up for email updates
+            </label>
+            <br>
+            <input type="submit" value="Submit review">
+        </fieldset>
+    </form>
 </body>
 </html>
