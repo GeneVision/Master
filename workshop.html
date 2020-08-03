@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="workshop.css">
+</head>
+<body>
+    <h1>Programming Workshop</h1>
+    <p>We will be conducting a number of software development workshops
+        and web developement symposiums throughout the year.
+    </p>
+    <p>
+        Please note that following events are free to members:
+    </p>
+    <ul>
+        <li>HTML|CSS|Styles</li>
+        <li>JavaScript|Frameworks</li>
+        <li>Technology|DevOps</li>
+        <li>DataBase</li>
+        <li>Mobile App</li>
+    </ul>
+    <table>
+        <tr class="head">
+            <th></th>
+            <th>Baton Rouge</th>
+            <th>New Orleans</th>
+            <th>Hammond</th>
+        </tr>
+        <tr>
+            <th>HTML|CSS|Styles</th>
+            <td>Fri, 3 Sep 2021 <br> 10am-4pm</td>
+            <td>Sat, 4 Sep 2021 <br> 10am-4pm</td>
+            <td>Sun, 5 Sep 2021 <br> 10am-4pm</td>
+        </tr>
+        <tr class="even">
+            <th>JavaScript|Frameworks</th>
+            <td>Fri, 10 Sep 2021 <br> 10am-5pm</td>
+            <td>Sat, 11 Sep 2021 <br> 10am-5pm</td>
+            <td>Sun, 12 Sep 2021 <br> 10am-5pm</td>
+        </tr>
+        <tr>
+            <th>Technology|DevOps</th>
+            <td>Fri, 24 Sep 2021 <br> 10am-4pm</td>
+            <td>Sat, 25 Sep 2021 <br> 10am-4pm</td>
+            <td>Sun, 26 Sep 2021 <br> 10am-4pm</td>
+        </tr>
+        <tr>
+            <th>DataBase</th>
+            <td>Fri, 1 Oct 2021 <br> 10am-4pm</td>
+            <td>Sat, 2 Oct 2021 <br> 10am-4pm</td>
+            <td>Sun, 3 Oct 2021 <br> 10am-4pm</td>
+        </tr>
+        <tr>
+            <th>Mobile App</th>
+            <td>Fri, 15 Sep 2021 <br> 10am-4pm</td>
+            <td>Sat, 16 Sep 2021 <br> 10am-4pm</td>
+            <td>Sun, 17 Sep 2021 <br> 10am-4pm</td>
+        </tr>
+    </table>
+    <form action="">
+        <fieldset>
+            <legend>Register your interest</legend>
+                <p>
+                    <label for="name" class="title">Your name:</label>
+                    <input type="text" name="name" id="name"><br>
+                    <label for="email" class="title">Your email:</label>
+                    <input type="text" name="email" id="email">
+                </p>
+                <p>
+                    <label for="location" class="title">Your closest center:</label>
+                    <select name="location" id="location">
+                        <option value="br">Baton Rouge</option>
+                        <option value="no">New Orleans</option>
+                        <option value="hd">Hammond</option>
+                    </select>
+                </p>
+                <span class="title">Are you a member?</span>
+                <label><input type="radio" name="member" value="yes">Yes</label>
+                <label><input type="radio" name="member" value="no">No</label>
+        </fieldset>
+        <div class="submit"><input type="submit" name="button" id="register" value="register"></div>
+    </form>
+</body>
+</html>
