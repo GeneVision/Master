@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+body {
+    background-color: silver;
+    color: white;
+    padding: 20px;
+    font-family: 'Lora', serif;
+}
+
+h1 {
+    background-color: #fff;
+    color: #64645a;
+    padding: inherit;
+}
+
+p {
+    padding: 5px;
+    margin: 0px;
+}
+
+p.zero {
+    background-color: rgb(238, 62, 128);
+}
+
+p.one {
+    background-color: rgb(244, 90, 139);
+}
+
+p.two {
+    background-color: rgb(243, 106, 152);
+}
+
+p.three {
+    background-color: rgb(244, 123, 166);
+}
+
+p.four {
+    background-color: rgb(245, 140, 178);
+}
+
+p.five {
+    background-color: rgb(246, 159, 192);
+}
+
+p.six {
+    background-color: rgb(245, 176, 204);
+}
+
